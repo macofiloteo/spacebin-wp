@@ -1,0 +1,53 @@
+{
+  "name": "spacebin-ghost",
+  "description": "Used GhostInTheShell by mityalebedev and started editing it to fit my needs!",
+  "demo": "https://ghostintheshell.ghost.io",
+  "version": "1",
+  "engines": {
+    "ghost": ">=3.0.0",
+    "ghost-api": "v3"
+  },
+  "license": "MIT",
+  "screenshots": {
+    "desktop": "assets/screenshot-desktop.jpg",
+    "mobile": "assets/screenshot-mobile.jpg"
+  },
+  "scripts": {
+    "zip": "gulp release",
+    "test": "gscan ."
+  },
+  "author": {
+    "name": "Maco Filoteo",
+    "email": "macofiloteo@gmail.com",
+    "url": "https://github.com/macofiloteo"
+  },
+  "gpm": {
+    "type": "theme",
+    "categories": [
+      "Minimal",
+      "Personal Blogs"
+    ]
+  },
+  "keywords": [
+    "ghost",
+    "theme",
+    "ghost-theme"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/macofiloteo/spacebin-theme.git"
+  },
+  "bugs": "https://github.com/macofiloteo/spacebin-theme/issues",
+  "contributors": "https://github.com/macofiloteo/spacebin-theme/graphs/contributors",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-zip": "^4.2.0"
+  },
+  "config": {
+    "posts_per_page": 5
+  }
+}

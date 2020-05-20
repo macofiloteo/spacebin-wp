@@ -1,0 +1,39 @@
+.site-nav {
+  position: fixed;
+  top: 20%;
+  z-index: 9999;
+  ul {
+    padding: 0;
+
+    li {
+      font-size: 14px;
+      display: block;
+      list-style: none;
+      padding: 5px 20px;
+      line-height: 1;
+      min-width: 100px;
+      border-bottom: medium solid $button-bottom-border-na;
+      color: $link-na;
+      &:hover {
+        &::before {
+          content: ">> ";
+          color: #33e139;
+        }
+      }
+
+      &.nav-current {
+        color: white !important;
+        border-bottom: medium solid $button-bottom-border-a;
+      }
+
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+    }
+  }
+
+  .post-header & {
+    text-align: center;
+  }
+}
